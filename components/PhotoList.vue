@@ -10,7 +10,7 @@ const { title } = props
 
 <template>
   <h2 v-text="title" class="text-lg text-blue-400 slow-scale-up"></h2>
-  <ul class="max-w-[100px]">
+  <ul class="w-full bg-gray-200">
     <li><img src="https://josefkolar.cz/_nuxt/f21bf3905f73e7f58753f579d6718b53-1080.jpg" alt=""></li>
     <li><img src="https://josefkolar.cz/_nuxt/f21bf3905f73e7f58753f579d6718b53-1080.jpg" alt=""></li>
     <li
