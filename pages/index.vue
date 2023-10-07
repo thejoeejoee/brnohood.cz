@@ -12,12 +12,13 @@
       <img
           class="
             self-end
-            mt-6 mr-6 -mb-6
-            md:mt-10 md:mr-10 -md:mb-10
-            xl:mt-36 xl:mr-36 -xl:mb-48
-            w-28 md:w-44 xl:w-96
+            w-28 mt-6 mr-6 -mb-6
+            xl:w-36 md:w-44 md:mt-10 md:mr-10 -md:mb-10
+            xl:w-48 xl:mt-24 xl:mr-24 -xl:mb-48
+            2xl:w-56 2xl:mt-24 2xl:mr-24 2xl:-mb-24
           "
           src="~/assets/svg/logo-black.svg"
+          alt="BrnoHOOD logo"
       >
 
       <div class="
@@ -26,7 +27,7 @@
       "></div>
 
       <h1 class="
-        text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[7rem]
+        text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[6rem]
         !leading-tight !md:leading-snug
         p-4 pr-0 md:p-6 lg:p-10
         drop-shadow-[0_0_20px_rgba(255,255,255,1)]
