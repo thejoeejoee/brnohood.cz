@@ -2,9 +2,11 @@
   <div>
 
 
-    <h1>helo word</h1>
+    <h1>hello world</h1>
 
-    <NuxtLink to="/contact" class="hover:text-underline">go to </NuxtLink>
+    <div>joe</div>
+
+    <NuxtLink to="/contact" class="hover:text-underline">go to contact</NuxtLink>
 
 
   </div>
