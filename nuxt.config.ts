@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss', '@hypernym/nuxt-anime', '@nuxtjs/google-fonts'],
 
   googleFonts: {
+    preload: true,
     families: {
       Manrope: [
           800,

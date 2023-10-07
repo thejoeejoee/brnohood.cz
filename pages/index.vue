@@ -31,21 +31,27 @@
         p-4 pr-0 md:p-6 lg:p-10
         drop-shadow-[0_0_20px_rgba(255,255,255,1)]
       ">
-        Hey! <br>
+        Hey!
+        <!-- break line always -->
+        <br>
         This
         <!-- yellow thing -->
         <span class="absolute bg-01 w-[2ch] md:w-[5ch] h-[3rem] md:h-[1lh] -ml-[.3rem]"></span>
         <span class="inline-block w-[1.5ch] md:w-[4.5ch]"></span>
         is the
+        <!-- break line only on mobile -->
         <br class="lg:hidden">
         official
+        <!-- break only on desktop -->
         <br class="hidden lg:block">
         website
+        <!-- break line only on mobile -->
         <br class="lg:hidden">
         of a
-        <!--        new-->
+        <!-- new line always -->
         <br>
         non-profit
+        <!-- break line only on mobile -->
         <br class="lg:hidden">
         organisation <br>
         based in

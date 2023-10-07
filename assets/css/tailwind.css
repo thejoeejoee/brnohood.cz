@@ -4,12 +4,5 @@
 
 
 body {
-
-}
-
-
-
-
-.category {
-
+    @apply snap-proximity snap-y snap-mandatory
 }
