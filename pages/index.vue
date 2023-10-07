@@ -1,17 +1,7 @@
 <template>
   <div>
-    <div class="w-full bg-amber-400 flex flex-row justify-center items-center">
-      <h1 class="p-8 text-5xl font-bold text-amber-900 title">
-        BRNOhood
-      </h1>
-    </div>
 
 
-    <h1>hello world</h1>
-
-    <div>joe</div>
-
-    <NuxtLink to="/contact" class="hover:text-underline">go to contact</NuxtLink>
 
 
   </div>
