@@ -5,15 +5,25 @@
         class="
           bg-gray-100
           h-screen w-full
-          relative
+          relative flex flex-col
         "
     >
+
+      <img
+          class="
+            self-end
+            mt-6 mr-6 -mb-6
+            md:mt-10 md:mr-10 -md:mb-10
+            xl:mt-36 xl:mr-36 -xl:mb-48
+            w-28 md:w-44 xl:w-96
+          "
+          src="~/assets/svg/logo-black.svg"
+      >
 
       <h1 class="
         text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[7rem]
         !leading-tight !md:leading-snug
         p-4 pr-0 md:p-6 lg:p-10
-        absolute left-0 top-0
       ">
         Hey! <br>
         This
@@ -27,7 +37,7 @@
         website
         <br class="lg:hidden">
         of a
-        new
+<!--        new-->
         <br>
         non-profit
         <br class="lg:hidden">
