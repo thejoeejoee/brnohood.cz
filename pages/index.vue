@@ -20,10 +20,16 @@
           src="~/assets/svg/logo-black.svg"
       >
 
+      <div class="
+        absolute right-0 bottom-0
+        bg-09 w-full h-full
+      "></div>
+
       <h1 class="
         text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[7rem]
         !leading-tight !md:leading-snug
         p-4 pr-0 md:p-6 lg:p-10
+        drop-shadow-[0_0_20px_rgba(255,255,255,1)]
       ">
         Hey! <br>
         This
@@ -37,7 +43,7 @@
         website
         <br class="lg:hidden">
         of a
-<!--        new-->
+        <!--        new-->
         <br>
         non-profit
         <br class="lg:hidden">
@@ -46,10 +52,6 @@
         Brno.
       </h1>
 
-      <div class="
-        absolute right-0 bottom-0
-        bg-09 w-full h-full
-      "></div>
     </header>
 
 
