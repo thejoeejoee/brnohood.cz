@@ -2,48 +2,54 @@
   <div>
 
     <header
-        class="bg-gray-100 w-screen h-screen flex flex-col justify-start"
+        class="
+          bg-gray-100
+          h-screen w-full
+          relative
+        "
     >
 
       <h1 class="
-      text-5xl md:text-4xl lg:text-5xl
-
-        pl-8
-        pt-12
-       xl:m-20
+        text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[7rem]
+        !leading-tight !md:leading-snug
+        p-4 pr-0 md:p-6 lg:p-10
+        absolute left-0 top-0
       ">
         Hey! <br>
-        TEXT
-        <span class="title-01-img"></span>
-        <span class="title-01-bg">T</span>
-
-
+        This
+        <!-- yellow thing -->
+        <span class="absolute bg-01 w-[2ch] md:w-[5ch] h-[3rem] md:h-[1lh] -ml-[.3rem]"></span>
+        <span class="inline-block w-[1.5ch] md:w-[4.5ch]"></span>
         is the
-
         <br class="lg:hidden">
         official
-        website of a
-        <!--  <img class="title-02-img" src="~/assets/svg/title-01.svg">-->
-        new <br>
-        non-profit organisation <br>
+        <br class="hidden lg:block">
+        website
+        <br class="lg:hidden">
+        of a
+        new
+        <br>
+        non-profit
+        <br class="lg:hidden">
+        organisation <br>
         based in
-
-        Brno. <br>
+        Brno.
       </h1>
 
-      <div class="title-09-img"></div>
-
-
+      <div class="
+        absolute right-0 bottom-0
+        bg-09 w-full h-full
+      "></div>
     </header>
 
 
-    <div class="w-screen h-screen bg-blue-800">
+    <div class="h-screen bg-blue-800">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda blanditiis commodi
       consequuntur dolores ducimus eum, explicabo fugiat incidunt maxime neque nisi nobis optio quos tempora tenetur ut
       veritatis.
 
     </div>
-    <div class="w-screen h-screen bg-indigo-400">
+    <div class="h-screen bg-indigo-400">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda blanditiis commodi
       consequuntur dolores ducimus eum, explicabo fugiat incidunt maxime neque nisi nobis optio quos tempora tenetur ut
       veritatis.
@@ -59,53 +65,42 @@ header {
 }
 
 h1 {
-  font-family: "Manrope", sans-serif;
-  font-weight: 700;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 600;
 
   text-transform: uppercase;
-
-//font-size: 3.5rem; line-height: 135%;
+  letter-spacing: -0.05rem;
+  word-spacing: -0.1rem;
 }
 
-.title-02-img {
-  display: inline-block;
-  width: 5ch;
 
-  margin-top: -1rem;
-}
-
-.title-01-bg {
-  display: inline-block;
-  width: 4ch;
-}
-
-.title-01-img {
-  width: 5ch;
-  height: 4.5rem;
-  vertical-align: middle;
-  position: absolute;
-
-  margin-left: -.5ch;
-  margin-top: 10px;
-
-  display: inline-block;
-
+.bg-01 {
   background-image: url("assets/svg/title-01.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.title-09-img {
-//background: red; background-image: url("~/assets/svg/title-09.svg");
+.bg-09 {
+  background-image: url("~/assets/svg/title-09.svg");
   background-repeat: no-repeat;
-  background-size: 105%;
-  background-position: 100% 100%;
 
-  width: 100%;
-  height: 100%;
 
-  margin-bottom: 3rem;
+  background-position: bottom 0 left -2rem;
+  background-size: calc(100% + 4rem);
+  @media screen("md") {
+    background-position: bottom 0 left -2rem;
+    background-size: calc(100% + 4rem);
+  }
+  @media screen("lg") {
+    background-position: bottom -7rem right -5rem;
+  }
+  @media screen("xl") {
+    background-position: bottom -12.5rem right -7.5rem;
+  }
+  @media screen("2xl") {
+    background-position: bottom -12.5rem right -7.5rem;
+  }
 }
 </style>
 <script setup lang="ts">

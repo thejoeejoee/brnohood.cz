@@ -6,8 +6,9 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Manrope: [
-          700,
+          800,
       ],
+      "Space Grotesk": [700]
     }
   }
 })
