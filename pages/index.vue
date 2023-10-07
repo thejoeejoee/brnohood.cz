@@ -1,37 +1,71 @@
 <template>
   <div>
 
+    <h1 class="
+      text-3xl md:text-4xl lg:text-5xl
 
-    <h1>hello world</h1>
+       m-8
+       xl:m-20
+      ">
+      Hey! <br>
+      This
 
-    <div>joe</div>
+      <span class="title-01-img"></span>
+      <span class="title-01-bg"></span>
 
-    <NuxtLink to="/contact" class="hover:text-underline">go to contact</NuxtLink>
+      is the official <br>
+      website of a
+<!--      <img class="title-02-img" src="~/assets/svg/title-01.svg">-->
+      new <br>
+      non-profit organisation <br>
+      based in
+
+      Brno. <br>
+    </h1>
 
 
   </div>
 </template>
 
-<script setup lang="ts">
-const { $anime } = useNuxtApp()
-
-onMounted(() => {
-  $anime({
-    targets: '.title',
-    keyframes: [
-      {translateY: -40},
-      {translateX: 250},
-      {translateY: 40},
-      {translateX: 0},
-      {translateY: 0}
-    ],
-    duration: 4000,
-    easing: 'easeOutElastic(1, .8)',
-    loop: true,
-  })
-})
-</script>
 
 <style scoped>
-  h1 {}
+  h1 {
+    font-family: "Manrope", sans-serif;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    //font-size: 3.5rem;
+    line-height: 135%;
+  }
+
+  .title-02-img {
+    display: inline-block;
+    width: 5ch;
+
+    margin-top: -1rem;
+  }
+
+  .title-01-bg {
+    display: inline-block;
+    width: 4ch;
+  }
+
+  .title-01-img {
+    width: 5ch;
+    height: 4.5rem;
+    vertical-align: middle;
+    position: absolute;
+
+    margin-left: -.5ch;
+
+    display: inline-block;
+
+    background-image: url("assets/svg/title-01.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
 </style>
+<script setup lang="ts">
+</script>
