@@ -61,7 +61,7 @@
 
     </header>
 
-    <div class="h-screen bg-violet-900 flex/flex-col">
+    <div class="h-screen bg-violet-900 flex flex-col">
 
       <img
           class="
