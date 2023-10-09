@@ -63,8 +63,6 @@
 
     <div class="h-screen bg-violet-900">
 
-      <div class="h-10 bg-violet-900">
-  
       <img
           class="
             self-end
@@ -76,10 +74,9 @@
           src="@/assets/svg/logo_white.svg"
           alt="BrnoHOOD logo"
       >
-      </div>
+     <div></div>
 
-
-      <h1 class="ml-8 text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[6rem] text-neutral-100"
+      <h1 class="ml-8 text-[3rem] md:text-8xl lg:text-10xl xl:text-[7.5rem] 2xl:text-[7.5rem] text-neutral-100"
       >Responsible
       <br class="xl:hidden">
       <span class="bg-fuchsia-400">People</span>
