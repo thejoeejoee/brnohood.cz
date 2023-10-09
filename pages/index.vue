@@ -61,7 +61,11 @@
 
     </header>
 
-    <img
+    <div class="h-screen bg-violet-900">
+
+      <div class="h-10 bg-violet-900">
+  
+      <img
           class="
             self-end
             w-28 mt-6 mr-6 -mb-6
@@ -69,13 +73,10 @@
             xl:w-48 xl:mt-24 xl:mr-24 -xl:mb-48
             2xl:w-56 2xl:mt-24 2xl:mr-24 2xl:-mb-24
           "
-          src=""
+          src="@/assets/svg/logo_white.svg"
           alt="BrnoHOOD logo"
       >
-
-
-    <div class="h-screen bg-violet-900">
-      <div class="h-10 bg-violet-900"></div>
+      </div>
 
 
       <h1 class="ml-8 text-[2.5rem] md:text-7xl lg:text-7xl xl:text-[6rem] 2xl:text-[6rem] text-neutral-100"
