@@ -62,10 +62,9 @@
     </header>
 
 
-    <div class="h-screen bg-blue-800">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur assumenda blanditiis commodi
-      consequuntur dolores ducimus eum, explicabo fugiat incidunt maxime neque nisi nobis optio quos tempora tenetur ut
-      veritatis.
+    <div class="h-screen bg-violet-900>
+      <h1>Responsible People
+      </h1>
 
     </div>
     <div class="h-screen bg-indigo-400">
