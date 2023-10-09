@@ -61,7 +61,7 @@
 
     </header>
 
-    <div class="h-screen bg-violet-900">
+    <div class="h-screen bg-violet-900 flex/flex-col">
 
       <img
           class="
@@ -74,8 +74,7 @@
           src="@/assets/svg/logo_white.svg"
           alt="BrnoHOOD logo"
       >
-     <div></div>
-
+    
       <h1 class="ml-8 text-[3rem] md:text-8xl lg:text-10xl xl:text-[7.5rem] 2xl:text-[7.5rem] text-neutral-100"
       >Responsible
       <br class="xl:hidden">
