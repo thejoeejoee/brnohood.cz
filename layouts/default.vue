@@ -1,11 +1,9 @@
-<script setup lang="ts">
+<script lang="ts" setup>
 
 </script>
 
 <template>
-
-    <NuxtPage></NuxtPage>
-
+  <NuxtPage></NuxtPage>
 </template>
 
 <style scoped>
