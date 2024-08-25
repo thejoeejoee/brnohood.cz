@@ -1,3 +1,15 @@
+<script lang="ts" setup>
+defineOgImageComponent(
+    'SimpleBlog',
+    {
+      title: 'BRNOhood',
+      description: '...',
+      theme: '#ff0000',
+      colorMode: 'dark',
+    }
+)
+</script>
+
 <template>
   <main
       class="
