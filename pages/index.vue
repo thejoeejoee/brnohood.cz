@@ -1,30 +1,10 @@
 <template>
-  <div>
+  <main
+      class="
+        h-screen w-full
+        bg-gray-900
+      "
+  >
 
-    <header
-        class="
-          bg-gray-100
-          h-screen w-full
-          relative flex flex-col
-        "
-    >
-      <h1>BRNOhood</h1>
-    </header>
-  </div>
+  </main>
 </template>
-
-
-<style scoped>
-header {
-}
-
-h1 {
-  font-family: "Space Grotesk", sans-serif;
-  font-weight: 600;
-
-  text-transform: uppercase;
-}
-
-</style>
-<script lang="ts" setup>
-</script>
