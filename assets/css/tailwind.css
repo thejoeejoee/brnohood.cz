@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 
-body {
-    @apply snap-proximity snap-y snap-mandatory
+html {
+    @apply snap-y snap-mandatory
 }

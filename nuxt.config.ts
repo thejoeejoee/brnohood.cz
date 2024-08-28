@@ -1,5 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+    app: {
+        head: {
+            // title: 'BRNOhood',
+            titleTemplate: 'BRNOhood',
+        }
+    },
+
     site: {
         url: 'https://brnohood.cz',
         name: 'BRNOhood',
@@ -24,11 +31,6 @@ export default defineNuxtConfig({
       'nuxt-og-image',
       '@nuxtjs/seo'
     ],
-
-    site: {
-        // production URL
-        url: 'https://brnohood.cz',
-    },
 
     experimental: {
         viewTransition: true
