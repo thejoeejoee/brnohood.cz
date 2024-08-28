@@ -34,7 +34,9 @@ export default defineNuxtConfig({
       '@hypernym/nuxt-anime',
       '@nuxtjs/google-fonts',
       'nuxt-og-image',
-      '@nuxtjs/seo'
+      '@nuxtjs/seo',
+      '@nuxtjs/html-validator',
+      '@nuxt/content'
     ],
 
     experimental: {
