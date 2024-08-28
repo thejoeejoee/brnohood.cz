@@ -14,7 +14,7 @@ defineOgImageComponent(
   <div>
     <main
         class="
-          h-screen w-full relative
+          h-dvh w-full relative
           bg-gray-900
           grid grid-cols-2 grid-rows-2
           text-gray-200
@@ -29,7 +29,7 @@ defineOgImageComponent(
           "
       >
         <svg viewBox="0 0 1422 800" opacity="1" class="
-          w-full h-screen transform
+          w-full h-full transform
           rotate-90 scale-[250%]
           sm:scale-150
           md:rotate-0 md:-scale-y-150
