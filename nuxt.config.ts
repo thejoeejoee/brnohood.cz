@@ -29,6 +29,17 @@ export default defineNuxtConfig({
         enabled: true
     },
 
+    icon: {
+        clientBundle: {
+            // scan all components in the project and include icons
+            scan: true,
+            globInclude: [
+                '**/*.vue',
+                'content/**/*.*',
+            ],
+        },
+    },
+
     modules: [
       '@nuxtjs/tailwindcss',
       '@hypernym/nuxt-anime',

@@ -12,7 +12,7 @@ description: BRNOhood Manifesto stating the values and goals of the project.
 
 </div>
 
-### BRNOhood project is a platform for culture exchange and social interaction in Brno.
+## BRNOhood project is a platform for culture exchange and social interaction in Brno.
 
 <div class="h-0.5 w-full bg-secondary rounded"></div>
 
