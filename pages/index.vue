@@ -1,13 +1,7 @@
 <script lang="ts" setup>
-defineOgImageComponent(
-    'Wave',
-    {
-      title: 'BRNOhood.cz',
-      // description: '...',
-      // theme: '#ffb202',
-      // colorMode: 'dark',
-    }
-)
+definePageMeta({
+  layout: 'default',
+})
 </script>
 
 <template>

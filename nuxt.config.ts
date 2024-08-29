@@ -19,6 +19,12 @@ export default defineNuxtConfig({
         defaultLocale: 'en',
     },
 
+    content: {
+        documentDriven: {
+            layoutFallbacks: ['content', 'default'],
+        },
+    },
+
     schemaOrg: {
         identity: {
             type: 'Event',
@@ -50,6 +56,17 @@ export default defineNuxtConfig({
       '@nuxt/content',
       '@nuxt/icon'
     ],
+
+    ogImage: {
+        defaults: {
+            renderer: "chromium",
+        },
+        compatibility: {
+            prerender: {
+                chromium: true,
+            }
+        }
+    },
 
     experimental: {
         viewTransition: true

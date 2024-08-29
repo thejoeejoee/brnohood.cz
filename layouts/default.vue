@@ -1,5 +1,5 @@
-<script lang="ts" setup>
-
+<script setup lang="ts">
+useBase()
 </script>
 
 <template>
@@ -10,10 +10,6 @@
         bg-gray-900
       "
   >
-    <NuxtPage></NuxtPage>
+    <slot />
   </div>
 </template>
-
-<style scoped>
-
-</style>

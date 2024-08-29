@@ -1,11 +1,10 @@
-<script lang="ts" setup>
-definePageMeta({
-  layout: 'content',
-})
+<script setup lang="ts">
+useBase()
 </script>
 
 <template>
   <div class="
+    bg-gray-900
     relative
     py-20 px-4
     min-h-screen
@@ -22,14 +21,14 @@ definePageMeta({
         <DesignCurveLines class="opacity-30"/>
       </div>
     </div>
-    <main class="
+    <div class="
       relative z-10
       container mx-auto
 
       prose prose-invert
       prose-a:no-underline
     ">
-      <ContentDoc/>
-    </main>
+      <slot />
+    </div>
   </div>
 </template>
