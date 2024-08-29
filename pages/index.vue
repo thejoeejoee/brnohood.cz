@@ -43,7 +43,10 @@ defineOgImageComponent(
           <span class="-tracking-wider">hood</span>
         </h1>
 
-        <h2 class="text-2xl font-semibold uppercase">
+        <h2 class="
+          text-2xl font-semibold uppercase
+          self-center md:self-start
+        ">
           <NuxtLink
               to="/manifesto"
               class="
@@ -51,12 +54,12 @@ defineOgImageComponent(
                 text-secondary
 
                 transition-transform
-                hover:translate-x-1 hover:underline
+                md:hover:translate-x-1 hover:underline
               ">
             <Icon
                 name="hugeicons:arrow-right-02"
                 size="1.5em"
-                class="group-hover:translate-x-2"
+                class="hidden md:block"
             ></Icon>
             Manifesto
           </NuxtLink>

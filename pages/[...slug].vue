@@ -6,12 +6,15 @@
   ">
     <div
         class="
-          absolute inset-0
-          overflow-clip
-          flex flex-col
+          fixed inset-0
+          overflow-hidden
         "
     >
-      <DesignCurveLines class="opacity-50"/>
+      <div class="[&>*]:min-h-[33dvh]">
+        <DesignCurveLines class="opacity-30"/>
+        <DesignCurveLines class="opacity-30"/>
+        <DesignCurveLines class="opacity-30"/>
+      </div>
     </div>
     <main class="
       relative z-10

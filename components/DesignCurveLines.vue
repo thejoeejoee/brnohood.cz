@@ -1,19 +1,23 @@
 <template>
-  <svg viewBox="0 0 1422 800" opacity="1" class="
-    w-full h-full transform
-    rotate-90 scale-[250%]
-    sm:scale-150
-    md:rotate-0 md:-scale-y-150
-    lg:-scale-y-100 lg:scale-x-125
-  ">
-    <g stroke-width="2.5" fill="none" stroke-linecap="round"
+  <svg
+      viewBox="0 0 1422 830"
+      opacity="1"
+      class="
+    w-full h-full
+  "
+   preserveAspectRatio="none"
+  >
+    <g
+        style="transform-box: fill-box; transform-origin: center"
+        stroke-width="2.5" fill="none" stroke-linecap="round"
+        transform="scale(1, -1) rotate(0)"
        class="
-              [&_path]:transition-[stroke-width]
-              [&_path:nth-child(3n)]:stroke-primary
-              [&_path:nth-child(3n+1)]:stroke-secondary
-              [&_path:nth-child(3n+2)]:stroke-tertiary
-              [&_path:hover]:stroke-[8]
-            "
+          [&_path]:transition-[stroke-width]
+          [&_path:nth-child(3n)]:stroke-primary
+          [&_path:nth-child(3n+1)]:stroke-secondary
+          [&_path:nth-child(3n+2)]:stroke-tertiary
+          [&_path:hover]:stroke-[8]
+       "
     >
       <path d="M 0 800 Q 355.5 -100 711 400 Q 1066.5 900 1422 800" opacity="0.05"></path>
       <path d="M 0 775 Q 355.5 -100 711 400 Q 1066.5 900 1422 775" opacity="0.08"></path>
