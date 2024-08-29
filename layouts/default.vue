@@ -3,7 +3,15 @@
 </script>
 
 <template>
-  <NuxtPage></NuxtPage>
+  <div
+      class="
+        w-full
+        min-h-screen
+        bg-gray-900
+      "
+  >
+    <NuxtPage></NuxtPage>
+  </div>
 </template>
 
 <style scoped>

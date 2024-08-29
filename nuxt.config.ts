@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     app: {
         head: {
-            titleTemplate: 'BRNOhood',
+            titleTemplate: '%s | BRNOhood',
             meta: [
                 { charset: 'utf-8' },
                 { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -36,7 +36,8 @@ export default defineNuxtConfig({
       'nuxt-og-image',
       '@nuxtjs/seo',
       '@nuxtjs/html-validator',
-      '@nuxt/content'
+      '@nuxt/content',
+      '@nuxt/icon'
     ],
 
     experimental: {

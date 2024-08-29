@@ -5,6 +5,13 @@ export default <Partial<Config>>{
         require('@tailwindcss/typography'),
     ],
 
+    content: [
+        './pages/**/*.{html,js,vue}',
+        './components/**/*.{html,js,vue}',
+        './assets/**/*.{css,js,vue}',
+        './content/**/*.*',
+    ],
+
     theme: {
         extend: {
             colors: {

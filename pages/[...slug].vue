@@ -1,14 +1,26 @@
 <template>
   <div class="
-    bg-gray-900
+    relative
+    py-20 px-4
+    min-h-screen
   ">
+    <div
+        class="
+          absolute inset-0
+          overflow-clip
+          flex flex-col
+        "
+    >
+      <DesignCurveLines class="opacity-50"/>
+    </div>
     <main class="
+      relative z-10
       container mx-auto
-      py-20
+
       prose prose-invert
       prose-a:no-underline
     ">
-      <ContentDoc />
+      <ContentDoc/>
     </main>
   </div>
 </template>
