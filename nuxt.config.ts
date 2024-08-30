@@ -9,7 +9,10 @@ export default defineNuxtConfig({
                 { name: 'msapplication-TileColor', content: '#111827' },
                 { name: 'theme-color', content: '#111827' },
             ],
-        }
+            htmlAttrs: {
+                lang: 'en',
+            },
+        },
     },
 
     site: {
@@ -20,9 +23,9 @@ export default defineNuxtConfig({
     },
 
     content: {
-        documentDriven: {
-            layoutFallbacks: ['content', 'default'],
-        },
+        // cannot mix document driven and dynamic routes
+        // https://www.reddit.com/r/Nuxt/comments/14t1fg9/comment/l5gx4a3/
+        documentDriven: false,
     },
 
     schemaOrg: {
