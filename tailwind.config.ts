@@ -14,6 +14,7 @@ export default <Partial<Config>>{
 
     theme: {
         extend: {
+            // https://uicolors.app/create
             colors: {
                 primary: {
                     '50': '#f5f5fd',

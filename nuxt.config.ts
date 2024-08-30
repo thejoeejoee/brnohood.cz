@@ -54,7 +54,8 @@ export default defineNuxtConfig({
       '@nuxtjs/seo',
       '@nuxtjs/html-validator',
       '@nuxt/content',
-      '@nuxt/icon'
+      '@nuxt/icon',
+      '@nuxt/image'
     ],
 
     ogImage: {

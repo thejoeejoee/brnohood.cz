@@ -1,5 +1,6 @@
 <script setup lang="ts">
 useBase()
+const props = useAttrs()
 </script>
 
 <template>
@@ -23,11 +24,9 @@ useBase()
     </div>
     <div class="
       relative z-10
-      container mx-auto
-
-      prose prose-invert
-      prose-a:no-underline
-    ">
+    "
+         :class="{'prose prose-invert prose-a:no-underline container mx-auto': !props.fullWidth}"
+    >
       <slot />
     </div>
   </div>
