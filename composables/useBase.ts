@@ -6,12 +6,12 @@ export default function () {
     })
 
     defineOgImageComponent(
-        'Default',
+        'NuxtSeo',
         {
             title: 'BRNOhood.cz',
-            // description: '...',
-            // theme: '#ffb202',
-            // colorMode: 'dark',
+            description: '',
+            theme: '#ffb202',
+            colorMode: 'dark',
         }
     )
 }

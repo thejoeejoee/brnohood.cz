@@ -59,11 +59,11 @@ export default defineNuxtConfig({
 
     ogImage: {
         defaults: {
-            renderer: "chromium",
+            // renderer: "chromium",
         },
         compatibility: {
             prerender: {
-                chromium: true,
+                // chromium: true,
             }
         }
     },
