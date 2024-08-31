@@ -57,6 +57,22 @@ definePageMeta({
             ></Icon>
             Manifesto
           </NuxtLink>
+          <NuxtLink
+              to="/team"
+              class="
+                flex flex-row items-center gap-1
+                text-primary
+
+                transition-transform
+                md:hover:translate-x-1 hover:underline
+              ">
+            <Icon
+                name="hugeicons:arrow-right-02"
+                size="1.5em"
+                class="hidden md:block"
+            ></Icon>
+            Team
+          </NuxtLink>
 <!--          <NuxtLink-->
 <!--              to="/manifesto"-->
 <!--              class="flex flex-row items-center gap-1 text-primary hover:underline">-->

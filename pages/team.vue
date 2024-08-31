@@ -21,16 +21,31 @@ definePageMeta({
       [&_li]:flex-col
       [&_li]:p-4
       [&_h2]:self-start
-      [&_h2]:transform
-      [&_h2]:origin-top-left
-      [&_h2]:rotate-[-34deg]
-      [&_h2]:translate-y-[5em]
+      [&_h2]:z-10
+      md:[&_h2]:transform
+      md:[&_h2]:origin-top-left
+      md:[&_h2]:rotate-[-34deg]
+      md:[&_h2]:translate-y-[4em]
+      lg:[&_h2]:translate-y-[3em]
+      xl:[&_h2]:translate-y-[5em]
 
       [&_figure]:flex
       [&_figure]:flex-col
       [&_figure]:gap-y-2
       [&_figure_img]:w-full
       [&_figure_img]:rounded-full
+      [&_figure_img]:border-8
+      [&_figure_img]:transform
+      [&_figure_img]:transition-transform
+      [&_figure_img:hover]:scale-95
+
+
+      [&_li:nth-child(1)_figure_img]:border-primary
+      [&_li:nth-child(2)_figure_img]:border-secondary
+      [&_li:nth-child(3)_figure_img]:border-tertiary
+      [&_li:nth-child(4)_figure_img]:border-secondary
+      [&_li:nth-child(5)_figure_img]:border-tertiary
+      [&_li:nth-child(6)_figure_img]:border-primary
     ">
       <li>
         <figure>
@@ -41,12 +56,12 @@ definePageMeta({
               src="/img/team/zuzka.jpg" alt=""
               class="w-full [clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
           />
-          <figcaption>president</figcaption>
+          <figcaption>project lead</figcaption>
         </figure>
       </li>
       <li>
         <figure>
-          <h2>Adéla Terezie Hurtová</h2>
+          <h2>Adéla Hurtová</h2>
           <NuxtPicture
               src="/img/team/hurty.jpg" alt=""
               class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
