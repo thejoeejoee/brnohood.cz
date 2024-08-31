@@ -18,7 +18,7 @@ export default defineNuxtConfig({
     site: {
         url: 'https://brnohood.cz',
         name: 'BRNOhood',
-        description: '...',
+        description: 'Culture festival celebrating local international communities in Brno, their diversity and openness.',
         defaultLocale: 'en',
     },
 

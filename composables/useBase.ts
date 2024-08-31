@@ -9,7 +9,7 @@ export default function () {
         'NuxtSeo',
         {
             title: 'BRNOhood.cz',
-            description: '',
+            description: 'Cultural festival celebrating Brno\'s local international communities, showcasing their diversity and openness.',
             theme: '#ffb202',
             colorMode: 'dark',
         }

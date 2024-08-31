@@ -1,6 +1,6 @@
 ---
 title: Manifesto
-description: BRNOhood Manifesto stating the values and goals of the project.
+description: Manifesto stating the values and goals of the project.
 
 ---
 
