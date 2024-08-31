@@ -2,6 +2,39 @@
 definePageMeta({
   // layout: 'content',
 })
+
+const people = [
+  {
+    name: 'Zuzka Gregušková',
+    role: 'project lead',
+    img: '/img/team/zuzka.jpg',
+  },
+  {
+    name: 'Adéla Hurtová',
+    role: 'partnerships',
+    img: '/img/team/hurty.jpg',
+  },
+  {
+    name: 'Marijana Brajdić',
+    role: 'programme',
+    img: '/img/team/marijanka.jpg',
+  },
+  {
+    name: 'Joe Kolář',
+    role: 'tech',
+    img: '/img/team/joe.jpg',
+  },
+  {
+    name: 'Hanka Hálová',
+    role: 'design',
+    img: '/img/team/hanka.jpg',
+  },
+  {
+    name: 'Filip Wagner',
+    role: 'finance',
+    img: '/img/team/filip.jpg',
+  },
+]
 </script>
 
 <template>
@@ -47,66 +80,16 @@ definePageMeta({
       [&_li:nth-child(5)_figure_img]:border-tertiary
       [&_li:nth-child(6)_figure_img]:border-primary
     ">
-      <li>
+      <li v-for="p in people">
         <figure>
-          <h2>Zuzka Gregušková</h2>
+          <h2 v-text="p.name"></h2>
 
           <NuxtPicture
-              placeholder
-              src="/img/team/zuzka.jpg" alt=""
+              sizes="100vw md:50vw lg:33vw"
+              :src="p.img" :alt="p.name"
               class="w-full [clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
           />
-          <figcaption>project lead</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <h2>Adéla Hurtová</h2>
-          <NuxtPicture
-              src="/img/team/hurty.jpg" alt=""
-              class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
-          />
-          <figcaption>partnerships</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <h2>Marijana Brajdić</h2>
-          <NuxtPicture
-              src="/img/team/marijanka.jpg" alt=""
-              class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
-          />
-          <figcaption>programme</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <h2>Joe Kolář</h2>
-          <NuxtPicture
-              src="/img/team/joe.jpg" alt=""
-              class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
-          />
-          <figcaption>tech</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <h2>Hanka Hálová</h2>
-          <NuxtPicture
-              src="/img/team/hanka.jpg" alt=""
-              class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
-          />
-          <figcaption>design</figcaption>
-        </figure>
-      </li>
-      <li>
-        <figure>
-          <h2>Filip Wagner</h2>
-          <NuxtPicture
-              src="/img/team/filip.jpg" alt=""
-              class="[clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)]"
-          />
-          <figcaption>finance</figcaption>
+          <figcaption v-text="p.role"></figcaption>
         </figure>
       </li>
     </ul>
