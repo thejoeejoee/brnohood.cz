@@ -15,6 +15,7 @@ const people: Person[] = [
         img: '/img/team/zuzka.jpg',
         width: 4740,
         height: 3160,
+        pictureClass: 'border-primary',
     },
     {
         id: 'hurty',
@@ -23,6 +24,7 @@ const people: Person[] = [
         img: '/img/team/hurty.jpg',
         width: 4000,
         height: 2667,
+        pictureClass: 'border-secondary',
     },
     {
         id: 'marijanka',
@@ -31,6 +33,7 @@ const people: Person[] = [
         img: '/img/team/marijanka.jpg',
         width: 3363,
         height: 2246,
+        pictureClass: 'border-tertiary',
     },
     {
         id: 'joe',
@@ -39,6 +42,7 @@ const people: Person[] = [
         img: '/img/team/joe.jpg',
         width: 1336,
         height: 892,
+        pictureClass: 'border-secondary',
     },
     {
         id: 'hanka',
@@ -47,6 +51,7 @@ const people: Person[] = [
         img: '/img/team/hanka.jpg',
         width: 3538,
         height: 2363,
+        pictureClass: 'border-tertiary',
     },
     {
         id: 'filip',
@@ -55,6 +60,7 @@ const people: Person[] = [
         img: '/img/team/filip.jpg',
         width: 1280,
         height: 852,
+        pictureClass: 'border-primary',
     },
 ]
 

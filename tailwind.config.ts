@@ -18,6 +18,7 @@ export default <Partial<Config>>{
         './components/**/*.{html,js,vue}',
         './assets/**/*.{css,js,vue}',
         './content/**/*.*',
+        './stores/**/*.*',
     ],
 
     theme: {

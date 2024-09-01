@@ -4,6 +4,7 @@ type Person = {
     role: string
     perex: string
     img: string
+    pictureClass: string
     width: number
     height: number
 }
