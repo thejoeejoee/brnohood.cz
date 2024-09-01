@@ -6,3 +6,17 @@
 html {
     @apply snap-y snap-mandatory
 }
+
+
+.Team__picture {
+    @apply [clip-path:polygon(0%_40%,40%_0%,100%_0,100%_60%,60%_100%,0%_100%)];
+
+    img {
+        @apply
+        w-full
+        rounded-full
+        border-8
+        transform
+        transition-transform
+    }
+}

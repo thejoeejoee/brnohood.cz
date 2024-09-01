@@ -64,7 +64,8 @@ export default defineNuxtConfig({
       '@nuxtjs/html-validator',
       '@nuxt/content',
       '@nuxt/icon',
-      '@nuxt/image'
+      '@nuxt/image',
+      '@pinia/nuxt'
     ],
 
     ogImage: {
