@@ -12,7 +12,7 @@ description: Manifesto stating the values and goals of the project.
 
 </div>
 
-## BRNOhood project is a platform for culture exchange and social interaction in Brno.
+## BRNOhood is a platform for cultural exchange and social interaction in Brno.
 
 <div class="h-0.5 w-full bg-secondary rounded"></div>
 
@@ -24,12 +24,13 @@ description: Manifesto stating the values and goals of the project.
 
 </div>
 
-1. **Culture is a universal language** that connects people from different backgrounds and helps them to understand each other.
-2. **Diversity is a value** that enriches our society and makes it more interesting.
-3. **Local communities are the heart of the city,** and they should be supported and developed.
-4. **Sharing is caring,** and it makes our lives more meaningful.
-5. **Art and culture are essential** for our well-being and personal development.
-6. **Everyone has a story to tell,** and it should be heard.
+1. **Diversity is a strength.** We celebrate the diversity of Brno's local and international communities, showcasing their unique cultures, traditions, and values.
+2. **Inclusivity is key.** We strive to create a welcoming and inclusive environment where everyone feels respected, valued, and heard.
+3. **Collaboration is essential.** We believe in the power of collaboration and cooperation to create meaningful connections and foster a sense of community.
+4. **Sustainability is our priority.** We are committed to organizing events and activities that are environmentally friendly, socially responsible, and financially sustainable.
+5. **Creativity is our passion.** We encourage creativity, innovation, and artistic expression in all forms, from music and art to food and fashion.
+6. **Empathy is our compass.** We believe in the importance of empathy, compassion, and understanding in building strong and lasting relationships.
+
 
 <div class="h-0.5 w-full bg-primary rounded"></div>
 
@@ -41,36 +42,19 @@ description: Manifesto stating the values and goals of the project.
 
 </div>
 
-1. **Promoting cultural diversity** and intercultural dialogue.
-2. **Supporting local artists and cultural initiatives**.
-3. **Creating opportunities for social interaction** and community building.
-4. **Encouraging creativity and self-expression**.
-5. **Fostering a sense of belonging and connection** among residents of Brno.
-6. **Celebrating the uniqueness of each individual** and their contribution to the community.
+1. **Promoting cultural exchange.** Through our events, activities, and initiatives, we aim to bring people together, promote cultural exchange, and create a sense of belonging for all members of the Brno community.
+2. **Fostering inclusivity.** We strive to create a welcoming and inclusive environment where everyone feels respected, valued, and heard.
+3. **Building a more vibrant and connected Brno.** We believe in the power of collaboration and cooperation to create meaningful connections and foster a sense of community.
+4. **Celebrating diversity.** We celebrate the diversity of Brno's local and international communities, showcasing their unique cultures, traditions, and values.
+5. **Creating a sense of belonging.** We aim to create a sense of belonging for all members of the Brno community, regardless of their background
+6. **Empowering individuals.** We believe in empowering individuals to express themselves, share their stories, and connect with others in a meaningful way.
 
 <div class="h-0.5 w-full bg-tertiary rounded"></div>
 
-<div class="flex flex-row justify-between items-center prose-headings:my-0 my-4">
-
-### We invite you to:
-
-<Icon name="hugeicons:location-01" size="3em" class="text-tertiary"/>
-
-</div>
-
-1. **Join our events and activities**.
-2. **Share your ideas and talents** with us.
-3. **Explore the cultural richness of Brno**.
-4. **Be part of the BRNOhood family**.
-5. **Make a difference in your city**.
-6. **Spread the word and inspire others**.
-
-<div class="h-0.5 w-full bg-secondary rounded"></div>
-
-<div class="flex flex-row justify-between items-center prose-headings:my-0 my-8">
+<div class="flex flex-row justify-between items-center prose-headings:my-0 my-8 gap-x-4">
 
 ### Together, we can create a vibrant and inclusive community where everyone feels welcome and valued.
 
-<Icon name="hugeicons:agreement-01" size="4em" class="text-secondary"/>
+<Icon name="hugeicons:agreement-01" size="4em" class="text-tertiary"/>
 
 </div>
