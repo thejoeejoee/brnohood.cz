@@ -42,14 +42,52 @@ onBeforeUnmount(() => {
       <TeamList :activate="false"/>
     </div>
     <div
-        class="relative grid grid-cols-1 lg:grid-cols-2 grid-row-2 gap-12 z-1"
+        class="relative grid grid-cols-1 md:grid-cols-2 grid-row-2 md:gap-12 z-1"
         v-on-click-outside="() => router.push('/team')"
     >
       <div class="row-start-2 md:row-start-1 col-start-1">
         <h2
-            v-text="p.name"
-            class="text-3xl vt-name-[team-person-name]"
-        ></h2>
+          class="
+            text-3xl vt-name-[team-person-name]
+            flex flex-col md:flex-row items-center justify-between
+            gap-4
+          "
+        >
+          <span class="mr-auto">{{ p.name }}</span>
+
+          <a
+              :href="`mailto:${p.email}`"
+              title="Email"
+              class="
+                text-xl font-mono
+                self-end md:self-auto
+                flex flex-row items-center gap-1
+              "
+          >
+            <Icon
+                name="hugeicons:at"
+                class="ml-auto text-white text-xl"
+                aria-hidden="true"
+                focusable="false"
+            />
+            {{ p.email }}
+          </a>
+          <a
+              :href="p.linkedin"
+              target="_blank"
+              rel="nofollow,noreferrer"
+              title="LinkedIn"
+              class="self-end md:self-auto"
+          >
+            <span class="sr-only">LinkedIn</span>
+            <Icon
+                name="hugeicons:linkedin-02"
+                class="ml-auto text-[#0072b1] text-3xl"
+                aria-hidden="true"
+                focusable="false"
+            />
+          </a>
+        </h2>
         <h3 class="
           flex flex-row items-center gap-2
           text-gray-300 text-2xl

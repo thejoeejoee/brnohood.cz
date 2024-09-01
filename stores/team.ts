@@ -12,6 +12,8 @@ const people: Person[] = [
         id: 'zuzka',
         name: 'Zuzka Gregušková',
         role: 'project lead',
+        email: 'zuzka@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/zuzana-gregu%C5%A1kov%C3%A1-252a801a6/',
         img: '/img/team/zuzka.jpg',
         width: 4740,
         height: 3160,
@@ -27,6 +29,8 @@ Unicorns in any form bring her joy, and there's no need to guess her favorite co
         id: 'hurty',
         name: 'Adéla Hurtová',
         role: 'partnerships',
+        email: 'adela@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/ad%C3%A9la-terezie-hurtov%C3%A1-91753519a/',
         img: '/img/team/hurty.jpg',
         width: 4000,
         height: 2667,
@@ -36,6 +40,8 @@ Unicorns in any form bring her joy, and there's no need to guess her favorite co
         id: 'marijanka',
         name: 'Marijana Brajdić',
         role: 'fun specialist',
+        email: 'marijana@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/marijana-brajdi%C4%87-78208520a/',
         img: '/img/team/marijanka.jpg',
         width: 3363,
         height: 2246,
@@ -52,6 +58,8 @@ If there’s a task at hand, you can bet she’s already got a plan—and a back
         id: 'joe',
         name: 'Joe Kolář',
         role: 'tech',
+        email: 'joe@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/josef-kolar/',
         img: '/img/team/joe.jpg',
         width: 1336,
         height: 892,
@@ -67,15 +75,25 @@ His favorite activities include cooking, rewatching Breaking Bad, and reminding 
         id: 'hanka',
         name: 'Hanka Hálová',
         role: 'design',
+        email: 'hanka@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/hana-halova/',
         img: '/img/team/hanka.jpg',
         width: 3538,
         height: 2363,
         pictureClass: 'border-tertiary',
+        perex: `
+Hanka is a confident hard worker whose dedication drives every project she takes on to success.
+No task is too small, big, hard, or soft for her.
+She has achieved great feats on her journey, from leading an esteemed student club to organizing a conference for technical universities in Vienna—all while keeping her PhD studies in line.
+You might think she’s too serious, but don’t worry, she can be a little goofball too.
+`
     },
     {
         id: 'filip',
         name: 'Filip Wagner',
         role: 'finance',
+        email: 'filip@brnohood.cz',
+        linkedin: 'https://www.linkedin.com/in/filip-wagner-238833228/',
         img: '/img/team/filip.jpg',
         width: 1280,
         height: 852,
