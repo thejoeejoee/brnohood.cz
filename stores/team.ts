@@ -17,7 +17,8 @@ const people: Person[] = [
         height: 3160,
         pictureClass: 'border-primary',
         perex: `
-During her five-week Erasmus program in Denmark, Zuzka managed to arrange the removal of an illegal dump in her hometown, only to then dive into the volunteer organization ESN VUT Brno and revive its spirit after the pandemic and lockdowns.
+During her five-week Erasmus program in Denmark, Zuzka managed to arrange the removal of an illegal dump in her hometown.
+Afterward, she dove into the volunteer organization ESN VUT Brno and revived its spirit after the pandemic and lockdowns.
 Zuzka is a versatile fighter who can handle everything from project management and organizing parties for thousands of people to developing her own material from natural plastic.
 Unicorns in any form bring her joy, and there's no need to guess her favorite color—the photo says it all.
 `
@@ -39,6 +40,13 @@ Unicorns in any form bring her joy, and there's no need to guess her favorite co
         width: 3363,
         height: 2246,
         pictureClass: 'border-tertiary',
+        perex: `
+Marijánka is an unstoppable force of creativity and problem-solving.
+Whether it’s tackling unexpected challenges or finding solutions to issues no one else has noticed, she’s always a step ahead.
+Her energy is boundless, much like her passion for acro yoga, where she’s not just the base but often the one leading the lessons.
+With a wealth of experience, Marijánka has successfully organized everything from kids' camps built from the ground up to massive events that take over entire shopping malls.
+If there’s a task at hand, you can bet she’s already got a plan—and a backup plan—for it.
+`
     },
     {
         id: 'joe',
