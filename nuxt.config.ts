@@ -4,14 +4,26 @@ export default defineNuxtConfig({
         head: {
             titleTemplate: '%s | BRNOhood',
             meta: [
-                { charset: 'utf-8' },
-                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-                { name: 'msapplication-TileColor', content: '#111827' },
-                { name: 'theme-color', content: '#111827' },
+                {charset: 'utf-8'},
+                {name: 'viewport', content: 'width=device-width, initial-scale=1'},
+                {name: 'msapplication-TileColor', content: '#111827'},
+                {name: 'theme-color', content: '#111827'},
             ],
             htmlAttrs: {
                 lang: 'en',
             },
+            script: [
+                {
+                    src: '//gc.zgo.at/count.js',
+                    'data-goatcounter': 'https://stats.brnohood.cz/count',
+                    'data-goatcounter-settings': JSON.stringify({
+                        no_onload: true,
+                        // see middlewares
+                        // allow_local: true,
+                    }),
+                    // async: true,
+                },
+            ],
         },
     },
 
@@ -56,16 +68,16 @@ export default defineNuxtConfig({
     },
 
     modules: [
-      '@nuxtjs/tailwindcss',
-      '@hypernym/nuxt-anime',
-      '@nuxtjs/google-fonts',
-      'nuxt-og-image',
-      '@nuxtjs/seo',
-      '@nuxtjs/html-validator',
-      '@nuxt/content',
-      '@nuxt/icon',
-      '@nuxt/image',
-      '@pinia/nuxt'
+        '@nuxtjs/tailwindcss',
+        '@hypernym/nuxt-anime',
+        '@nuxtjs/google-fonts',
+        'nuxt-og-image',
+        '@nuxtjs/seo',
+        '@nuxtjs/html-validator',
+        '@nuxt/content',
+        '@nuxt/icon',
+        '@nuxt/image',
+        '@pinia/nuxt'
     ],
 
     ogImage: {
