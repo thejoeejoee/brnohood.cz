@@ -61,8 +61,11 @@ const people: Person[] = [
 export const useTeamStore = defineStore('teamStore', {
     state: () => ({
         people,
+        activePersonId: null as string | null,
     }),
     actions: {
-
+        setActivePersonId(id: string) {
+            this.activePersonId = id
+        }
     }
 })

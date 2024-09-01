@@ -1,11 +1,5 @@
 <script setup lang="ts">
-
 const team = useTeamStore()
-
-const activePerson = ref(null)
-const setActivePerson = (id: string) => {
-  activePerson.value = id
-}
 
 useSeoMeta({
   title: 'Team',
@@ -51,8 +45,8 @@ useSeoMeta({
         <NuxtLink
             :to="`/team/${p.id}`"
             class="no-underline"
-            @click="setActivePerson(p.id)"
-            :class="{'active': p.id === activePerson}"
+            @click="team.setActivePersonId(p.id)"
+            :class="{'active': p.id === team.activePersonId}"
         >
           <figure>
             <h2 v-text="p.name"></h2>
@@ -78,6 +72,9 @@ useSeoMeta({
   }
   picture {
     @apply vt-name-[team-person-image];
+  }
+  figcaption {
+    @apply vt-name-[team-person-role];
   }
 }
 

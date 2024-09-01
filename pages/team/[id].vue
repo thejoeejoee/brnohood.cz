@@ -1,9 +1,12 @@
 <script setup lang="ts">
 const team = useTeamStore();
-
 const route = useRoute();
 
 const p: Ref<Person> = ref(team.people.find((person) => person.id === route.params.id));
+// TODO: 404 if p.value is undefined
+
+// to have working page transitions api when direct access to the page and going back to the team page
+team.setActivePersonId(p.value.id);
 
 useSeoMeta({
   title: `${p.value.name} | Team`,
@@ -12,12 +15,16 @@ useSeoMeta({
 </script>
 
 <template>
-  <div class="grid grid-cols-1 lg:grid-cols-2 grid-row-2">
+  <div class="grid grid-cols-1 lg:grid-cols-2 grid-row-2 gap-12">
     <div
-        class="row-start-2 md:row-start-1 col-start-1"
+        class="
+          row-start-2 md:row-start-1 col-start-1
+        "
     >
       <h1 v-text="p.name" class="vt-name-[team-person-name]"></h1>
-      <h2 v-text="p.role"></h2>
+      <h2 v-text="p.role" class="vt-name-[team-person-role]"></h2>
+
+      <p v-text="p.perex" class="text-lg text-justify"></p>
     </div>
 
     <NuxtPicture
