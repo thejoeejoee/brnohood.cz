@@ -16,6 +16,11 @@ const people: Person[] = [
         width: 4740,
         height: 3160,
         pictureClass: 'border-primary',
+        perex: `
+During her five-week Erasmus program in Denmark, Zuzka managed to arrange the removal of an illegal dump in her hometown, only to then dive into the volunteer organization ESN VUT Brno and revive its spirit after the pandemic and lockdowns.
+Zuzka is a versatile fighter who can handle everything from project management and organizing parties for thousands of people to developing her own material from natural plastic.
+Unicorns in any form bring her joy, and there's no need to guess her favorite color—the photo says it all.
+`
     },
     {
         id: 'hurty',
@@ -43,6 +48,12 @@ const people: Person[] = [
         width: 1336,
         height: 892,
         pictureClass: 'border-secondary',
+        perex: `
+Joe is an enthusiast day and night—except in the morning, when he's just glad to exist.
+He pours his energy into constantly improving those IT things that no one else really understands, though he insists on not being labeled as tech support because he doesn't fix printers.
+But that's not entirely true—he's happy to make an exception for his friends.
+His favorite activities include cooking, rewatching Breaking Bad, and reminding everyone to use a password manager.
+`
     },
     {
         id: 'hanka',
