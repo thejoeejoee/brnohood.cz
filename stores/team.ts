@@ -103,6 +103,13 @@ You might think she’s too serious, but don’t worry, she can be a little goof
         width: 1280,
         height: 852,
         pictureClass: 'border-primary',
+        perex: `
+Filip isn’t your typical treasurer—he ensures the numbers fit while maintaining a fun atmosphere.
+Whether it’s balancing the budget or organizing team-building events, he handles it all with ease.
+Even while working remotely from his Erasmus in Estonia, Filip has proven to be both reliable and resourceful.
+In tough times, he's always ready to lend a hand and offer support.
+With him on board, you can trust that the finances are in good hands, and his quick wit and creative ideas will keep the work environment enjoyable.
+`
     },
 ]
 
