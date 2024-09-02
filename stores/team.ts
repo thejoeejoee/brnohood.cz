@@ -35,6 +35,11 @@ Unicorns in any form bring her joy, and there's no need to guess her favorite co
         width: 4000,
         height: 2667,
         pictureClass: 'border-secondary',
+        perex: `
+Áďa is an environmental enthusiast who cares not only about the nature around her but also about people, which makes her a great communicator and negotiator.
+She has repeatedly proven herself to be a valuable leader and asset to the team, from organizing impactful activities such as visits to dog shelters to overseeing the production of conferences.
+She likes to disapear to other timezones from time to time, but she will return with a nice tan, handful of unbelievable stories and energy to dive into a new project.
+`
     },
     {
         id: 'marijanka',
