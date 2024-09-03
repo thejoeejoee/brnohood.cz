@@ -21,7 +21,7 @@ export default defineNuxtConfig({
                         // see middlewares
                         // allow_local: true,
                     }),
-                    // async: true,
+                    async: true,
                 },
             ],
         },
@@ -32,6 +32,8 @@ export default defineNuxtConfig({
         name: 'BRNOhood',
         description: 'Culture festival celebrating local international communities in Brno, their diversity and openness.',
         defaultLocale: 'en',
+        // github pages are directory based, we don't want to do a redirect after load
+        trailingSlash: true,
     },
 
     content: {
@@ -53,7 +55,11 @@ export default defineNuxtConfig({
     },
 
     devtools: {
+      enabled: true,
+
+      timeline: {
         enabled: true
+      }
     },
 
     icon: {

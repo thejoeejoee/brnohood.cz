@@ -41,7 +41,7 @@ definePageMeta({
           text-2xl font-semibold uppercase
           self-center md:self-start
         ">
-          <NuxtLink
+          <SiteLink
               to="/manifesto"
               class="
                 flex flex-row items-center gap-1
@@ -56,8 +56,8 @@ definePageMeta({
                 class="hidden md:block"
             ></Icon>
             Manifesto
-          </NuxtLink>
-          <NuxtLink
+          </SiteLink>
+          <SiteLink
               to="/team"
               class="
                 flex flex-row items-center gap-1
@@ -72,13 +72,13 @@ definePageMeta({
                 class="hidden md:block"
             ></Icon>
             Team
-          </NuxtLink>
-<!--          <NuxtLink-->
+          </SiteLink>
+<!--          <SiteLink-->
 <!--              to="/manifesto"-->
 <!--              class="flex flex-row items-center gap-1 text-primary hover:underline">-->
 <!--            <Icon name="hugeicons:arrow-right-02" size="1.5em"></Icon>-->
 <!--            Contact-->
-<!--          </NuxtLink>-->
+<!--          </SiteLink>-->
         </h2>
       </div>
 

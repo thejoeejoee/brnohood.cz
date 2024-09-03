@@ -36,7 +36,7 @@ const { activate } = props;
     [&_figure_img:hover]:scale-105
   ">
     <li v-for="p in team.people">
-      <NuxtLink
+      <SiteLink
           :to="`/team/${p.id}`"
           class="no-underline"
           @click="team.setActivePersonId(p.id)"
@@ -54,7 +54,7 @@ const { activate } = props;
           />
           <figcaption v-text="p.role"></figcaption>
         </figure>
-      </NuxtLink>
+      </SiteLink>
     </li>
   </ul>
 </template>

@@ -16,6 +16,14 @@ useSeoMeta({
   description: 'Who are we?',
 })
 
+definePageMeta({
+  validate: async (route) => {
+    const team = useTeamStore();
+
+    return typeof route.params.id === 'string' && team.people.some((person) => person.id === route.params.id);
+  }
+})
+
 const escapeKeyHandler = (e: KeyboardEvent) => {
   if (e.key === "Escape") {
     router.push("/team");
