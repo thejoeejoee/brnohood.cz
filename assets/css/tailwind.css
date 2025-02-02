@@ -25,3 +25,72 @@ html {
             transition-transform
     }
 }
+
+
+
+@layer {
+    .bg-brand-gradient {
+        background-size: 200% 200%;
+
+        background-image:
+                radial-gradient(at 80% 80%, theme("colors.quaternary.DEFAULT") 0px, transparent 50%),
+                radial-gradient(at 80% 20%, theme("colors.secondary.DEFAULT") 0px, transparent 50%),
+                radial-gradient(at 20% 20%, theme("colors.primary.DEFAULT") 0px, transparent 70%),
+                radial-gradient(at 20% 80%, theme("colors.tertiary.DEFAULT") 0px, transparent 50%);
+
+        animation: ease-in-out 60s bg-gradient infinite alternate;
+        /*backdrop-filter: blur(1px);*/
+        @apply relative;
+        .bg-leaves {
+            position: absolute;
+
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url("~/assets/svg/bg-shapes.svg");
+            background-repeat: repeat;
+            opacity: 0.2;
+            filter: blur(1px);
+            background-size: 20%;
+            animation: both 60s bgFall infinite ease-in-out;
+        }
+    }
+
+    @keyframes bgFall {
+        0% {
+            background-position-y: 0;
+        }
+        100% {
+            background-position-y: 100%;
+        }
+    }
+
+    .bg-brand-gradient-delay-1 {
+        animation-delay: -15s;
+    }
+    .bg-brand-gradient-delay-2 {
+        animation-delay: -30s;
+    }
+    .bg-brand-gradient-delay-3 {
+        animation-delay: -45s;
+    }
+
+    @keyframes bg-gradient {
+        0% {
+            background-position: 0 0;
+        }
+        25% {
+            background-position: 100% 100%;
+        }
+        50% {
+            background-position: 0 100%;
+        }
+        75% {
+            background-position: 100% 0;
+        }
+        100% {
+            background-position: 0 0;
+        }
+    }
+}

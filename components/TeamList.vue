@@ -11,7 +11,6 @@ const { activate } = props;
 </script>
 
 <template>
-  <h1>Who are we?</h1>
   <ul class="
     grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3
     m-0
@@ -36,14 +35,14 @@ const { activate } = props;
     [&_figure_img:hover]:scale-105
   ">
     <li v-for="p in team.people">
-      <SiteLink
+      <NuxtLink
           :to="`/team/${p.id}`"
           class="no-underline"
           @click="team.setActivePersonId(p.id)"
           :class="{'active': activate && p.id === team.activePersonId}"
       >
         <figure>
-          <h2 v-text="p.name"></h2>
+          <h2 v-text="p.name" class="text-primary-900"></h2>
 
           <NuxtPicture
               sizes="xs:100vw md:50vw 2xl:25vw"
@@ -54,7 +53,7 @@ const { activate } = props;
           />
           <figcaption v-text="p.role"></figcaption>
         </figure>
-      </SiteLink>
+      </NuxtLink>
     </li>
   </ul>
 </template>

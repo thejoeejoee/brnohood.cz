@@ -7,6 +7,7 @@ useSeoMeta({
 
 <template>
   <div>
+    <h1 class="font-brand text-6xl text-primary-950 text-center">Who are we?</h1>
    <TeamList/>
   </div>
 </template>

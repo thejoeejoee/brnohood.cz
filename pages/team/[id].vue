@@ -36,12 +36,10 @@ onMounted(() => {
 onBeforeUnmount(() => {
   window.document.removeEventListener("keydown", escapeKeyHandler)
 })
-
-
 </script>
 
 <template>
-  <div class="relative min-h-screen">
+  <div class="relative">
     <div class="
       hidden lg:block
       absolute inset-0 blur-xl opacity-25 -z-1 overflow-hidden
@@ -58,7 +56,7 @@ onBeforeUnmount(() => {
           class="
             text-3xl vt-name-[team-person-name]
             flex flex-col md:flex-row items-center justify-between
-            gap-4
+            gap-4 text-primary-900
           "
         >
           <span class="mr-auto">{{ p.name }}</span>
@@ -67,14 +65,14 @@ onBeforeUnmount(() => {
               :href="`mailto:${p.email}`"
               title="Email"
               class="
-                text-xl font-mono
+                text-xl font-mono text-gray-800
                 self-end md:self-auto
                 flex flex-row items-center gap-1
               "
           >
             <Icon
                 name="hugeicons:at"
-                class="ml-auto text-white text-xl"
+                class="ml-auto text-gray-800 text-xl"
                 aria-hidden="true"
                 focusable="false"
             />
@@ -98,14 +96,14 @@ onBeforeUnmount(() => {
         </h2>
         <h3 class="
           flex flex-row items-center gap-2
-          text-gray-300 text-2xl
+          text-gray-600 text-2xl
           vt-name-[team-person-role]
         ">
           <Icon name="hugeicons:user-love-01"/>
           {{ p.role }}
         </h3>
 
-        <p v-text="p.perex" class="text-lg text-justify"></p>
+        <p v-text="p.perex" class="text-lg text-justify text-gray-600"></p>
       </div>
 
       <NuxtPicture

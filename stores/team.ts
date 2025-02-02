@@ -79,7 +79,7 @@ His favorite activities include cooking, rewatching Breaking Bad, and reminding 
     {
         id: 'hanka',
         name: 'Hanka Hálová',
-        role: 'design',
+        role: 'marketing',
         email: 'hanka@brnohood.cz',
         linkedin: 'https://www.linkedin.com/in/hana-halova/',
         img: '/img/team/hanka.jpg',

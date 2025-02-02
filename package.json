@@ -17,18 +17,22 @@
     "@nuxt/image": "^1.8.0",
     "@nuxtjs/google-fonts": "^3.0.2",
     "@nuxtjs/html-validator": "^1.8.2",
+    "@nuxtjs/leaflet": "1.2.6",
     "@nuxtjs/seo": "^2.0.0-rc.19",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@pinia/nuxt": "^0.5.4",
     "@tailwindcss/typography": "^0.5.15",
     "nuxt": "^3.7.1",
     "nuxt-og-image": "^3.0.0-rc.65",
+    "nuxt-svgo": "4.0.12",
     "playwright": "^1.46.1",
     "tailwindcss": "^3.4.10",
     "tailwindcss-view-transitions": "^0.1.1",
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@vueuse/components": "^11.0.3"
-  }
+    "@vueuse/components": "^11.0.3",
+    "tailwindcss-fluid-type": "^2.0.7"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

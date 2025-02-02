@@ -8,8 +8,8 @@ withDefaults(defineProps<{
 
 <template>
   <div class="w-full h-full text-gray-200 border-gray-200 border-4">
-    <div class="absolute inset-0 bg-gray-900">
-      <DesignCurveLines/>
+    <div class="absolute inset-0 bg-brand-gradient">
+
     </div>
     <div class="absolute inset-0 grid grid-cols-2 grid-rows-2 p-20">
       <h1 class="

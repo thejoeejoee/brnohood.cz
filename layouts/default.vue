@@ -3,13 +3,7 @@ useBase()
 </script>
 
 <template>
-  <div
-      class="
-        w-full
-        min-h-screen
-        bg-gray-900
-      "
-  >
+  <div>
     <slot />
   </div>
 </template>

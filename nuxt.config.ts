@@ -74,16 +74,23 @@ export default defineNuxtConfig({
     },
 
     modules: [
-        '@nuxtjs/tailwindcss',
-        '@hypernym/nuxt-anime',
-        '@nuxtjs/google-fonts',
-        'nuxt-og-image',
-        '@nuxtjs/seo',
-        '@nuxtjs/html-validator',
-        '@nuxt/content',
-        '@nuxt/icon',
-        '@nuxt/image',
-        '@pinia/nuxt'
+      '@nuxtjs/tailwindcss',
+      '@hypernym/nuxt-anime',
+      '@nuxtjs/google-fonts',
+      'nuxt-og-image',
+      '@nuxtjs/seo',
+      '@nuxtjs/html-validator',
+      '@nuxt/content',
+      '@nuxt/icon',
+      '@nuxt/image',
+      '@pinia/nuxt',
+      [
+          'nuxt-svgo',
+          {
+              defaultImport: 'component',
+          },
+      ],
+      '@nuxtjs/leaflet'
     ],
 
     ogImage: {
@@ -104,10 +111,9 @@ export default defineNuxtConfig({
     googleFonts: {
         preload: true,
         families: {
-            Manrope: [
+            Karla: [
                 800,
             ],
-            "Space Grotesk": [700],
         }
     },
 

@@ -11,7 +11,11 @@ export default <Partial<Config>>{
                 },
             },
         }),
+        require("tailwindcss-fluid-type"),
     ],
+    corePlugins: {
+        fontSize: false,
+    },
 
     content: [
         './pages/**/*.{html,js,vue}',
@@ -23,6 +27,9 @@ export default <Partial<Config>>{
 
     theme: {
         extend: {
+            fontFamily: {
+                'brand': ["Karla", "sans-serif"],
+            },
             // https://uicolors.app/create
             colors: {
                 primary: {
@@ -40,35 +47,52 @@ export default <Partial<Config>>{
                     DEFAULT: '#6b46b8', // 700
                 },
                 secondary: {
-                    '50': '#fffdea',
-                    '100': '#fff8c5',
-                    '200': '#fff185',
-                    '300': '#ffe346',
-                    '400': '#ffd21b',
-                    '500': '#ffb202',
-                    '600': '#e28700',
-                    '700': '#bb5e02',
-                    '800': '#984908',
-                    '900': '#7c3c0b',
-                    '950': '#481e00',
-                    DEFAULT: '#ffb202', // 500
+                    '50': '#fff9ec',
+                    '100': '#fff2d3',
+                    '200': '#ffe1a6',
+                    '300': '#ffcb6d',
+                    '400': '#ffa933',
+                    '500': '#ff8d0b',
+                    '600': '#fe7501',
+                    '700': '#cb5403',
+                    '800': '#a1420b',
+                    '900': '#81370d',
+                    '950': '#461a04',
+                    DEFAULT: '#fe7501', // 600
                 },
                 tertiary: {
-                    '50': '#faffe6',
+                    '50': '#faffe5',
                     '100': '#f1ffc8',
-                    '200': '#e4ff97',
-                    '300': '#cdfb5b',
-                    '400': '#b6f12a',
-                    '500': '#97d70b',
-                    '600': '#7fbc04',
+                    '200': '#e3ff97',
+                    '300': '#cefc5a',
+                    '400': '#b6f229',
+                    '500': '#97d80a',
+                    '600': '#7ebc03',
                     '700': '#588308',
                     '800': '#47670d',
                     '900': '#3c5710',
                     '950': '#1e3102',
-                    DEFAULT: '#7fbc04', // 600
+                    DEFAULT: '#7ebc03', // 600
+                },
+                quaternary: {
+                    '50': '#fffdea',
+                    '100': '#fff8c5',
+                    '200': '#fff285',
+                    '300': '#ffe446',
+                    '400': '#ffd31b',
+                    '500': '#ffb200',
+                    '600': '#e28800',
+                    '700': '#bb5f02',
+                    '800': '#984908',
+                    '900': '#7c3c0b',
+                    '950': '#481e00',
+                    DEFAULT: '#ffb200', // 500
                 },
 
-            }
+            },
+            backgroundImage: {
+                'radial-transparent-to-white': 'radial-gradient(50% 50% at 50% 50%, transparent 10%, white 100%)',
+            },
         }
     }
 }
